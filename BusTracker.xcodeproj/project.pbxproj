@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A50DECC2B5FF1D80025711D /* BusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A50DECB2B5FF1D80025711D /* BusView.swift */; };
+		9A50DECE2B5FF1E30025711D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A50DECD2B5FF1E30025711D /* MenuView.swift */; };
 		9A6B71B52B5E869E00B9BD78 /* BusTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B71B42B5E869E00B9BD78 /* BusTrackerApp.swift */; };
-		9A6B71B72B5E869E00B9BD78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B71B62B5E869E00B9BD78 /* ContentView.swift */; };
+		9A6B71B72B5E869E00B9BD78 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B71B62B5E869E00B9BD78 /* MainView.swift */; };
 		9A6B71B92B5E869F00B9BD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A6B71B82B5E869F00B9BD78 /* Assets.xcassets */; };
 		9A6B71BD2B5E869F00B9BD78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A6B71BC2B5E869F00B9BD78 /* Preview Assets.xcassets */; };
 		9A6B71C72B5E86A000B9BD78 /* BusTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B71C62B5E86A000B9BD78 /* BusTrackerTests.swift */; };
 		9A6B71D12B5E86A000B9BD78 /* BusTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B71D02B5E86A000B9BD78 /* BusTrackerUITests.swift */; };
 		9A6B71D32B5E86A000B9BD78 /* BusTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B71D22B5E86A000B9BD78 /* BusTrackerUITestsLaunchTests.swift */; };
+		9A6B71E12B5E871200B9BD78 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9A6B71E02B5E871200B9BD78 /* Alamofire */; };
+		9A6B71E52B5E874C00B9BD78 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 9A6B71E42B5E874C00B9BD78 /* SkeletonView */; };
+		9A6B71E82B5E876200B9BD78 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 9A6B71E72B5E876200B9BD78 /* PopupView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A50DECB2B5FF1D80025711D /* BusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusView.swift; sourceTree = "<group>"; };
+		9A50DECD2B5FF1E30025711D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		9A6B71B12B5E869E00B9BD78 /* BusTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6B71B42B5E869E00B9BD78 /* BusTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTrackerApp.swift; sourceTree = "<group>"; };
-		9A6B71B62B5E869E00B9BD78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A6B71B62B5E869E00B9BD78 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9A6B71B82B5E869F00B9BD78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A6B71BA2B5E869F00B9BD78 /* BusTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BusTracker.entitlements; sourceTree = "<group>"; };
 		9A6B71BC2B5E869F00B9BD78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6B71E82B5E876200B9BD78 /* PopupView in Frameworks */,
+				9A6B71E52B5E874C00B9BD78 /* SkeletonView in Frameworks */,
+				9A6B71E12B5E871200B9BD78 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +82,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A50DEC72B5FEDC10025711D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A6B71B62B5E869E00B9BD78 /* MainView.swift */,
+				9A50DECB2B5FF1D80025711D /* BusView.swift */,
+				9A50DECD2B5FF1E30025711D /* MenuView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A50DEC82B5FEDC90025711D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9A50DEC92B5FEDD40025711D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A50DECA2B5FEDDD0025711D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		9A6B71A82B5E869E00B9BD78 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +136,11 @@
 		9A6B71B32B5E869E00B9BD78 /* BusTracker */ = {
 			isa = PBXGroup;
 			children = (
+				9A50DECA2B5FEDDD0025711D /* Util */,
+				9A50DEC92B5FEDD40025711D /* Model */,
+				9A50DEC82B5FEDC90025711D /* ViewModel */,
+				9A50DEC72B5FEDC10025711D /* View */,
 				9A6B71B42B5E869E00B9BD78 /* BusTrackerApp.swift */,
-				9A6B71B62B5E869E00B9BD78 /* ContentView.swift */,
 				9A6B71B82B5E869F00B9BD78 /* Assets.xcassets */,
 				9A6B71BA2B5E869F00B9BD78 /* BusTracker.entitlements */,
 				9A6B71BB2B5E869F00B9BD78 /* Preview Content */,
@@ -145,6 +189,11 @@
 			dependencies = (
 			);
 			name = BusTracker;
+			packageProductDependencies = (
+				9A6B71E02B5E871200B9BD78 /* Alamofire */,
+				9A6B71E42B5E874C00B9BD78 /* SkeletonView */,
+				9A6B71E72B5E876200B9BD78 /* PopupView */,
+			);
 			productName = BusTracker;
 			productReference = 9A6B71B12B5E869E00B9BD78 /* BusTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +266,12 @@
 				Base,
 			);
 			mainGroup = 9A6B71A82B5E869E00B9BD78;
+			packageReferences = (
+				9A6B71DF2B5E871200B9BD78 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9A6B71E22B5E873900B9BD78 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				9A6B71E32B5E874C00B9BD78 /* XCRemoteSwiftPackageReference "SkeletonView" */,
+				9A6B71E62B5E876200B9BD78 /* XCRemoteSwiftPackageReference "PopupView" */,
+			);
 			productRefGroup = 9A6B71B22B5E869E00B9BD78 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +314,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6B71B72B5E869E00B9BD78 /* ContentView.swift in Sources */,
+				9A50DECC2B5FF1D80025711D /* BusView.swift in Sources */,
+				9A50DECE2B5FF1E30025711D /* MenuView.swift in Sources */,
+				9A6B71B72B5E869E00B9BD78 /* MainView.swift in Sources */,
 				9A6B71B52B5E869E00B9BD78 /* BusTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +491,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -442,7 +499,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NRW.BusTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,7 +530,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -480,7 +538,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NRW.BusTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -617,6 +676,59 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A6B71DF2B5E871200B9BD78 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		9A6B71E22B5E873900B9BD78 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+		9A6B71E32B5E874C00B9BD78 /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.30.4;
+			};
+		};
+		9A6B71E62B5E876200B9BD78 /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A6B71E02B5E871200B9BD78 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A6B71DF2B5E871200B9BD78 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9A6B71E42B5E874C00B9BD78 /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A6B71E32B5E874C00B9BD78 /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+		9A6B71E72B5E876200B9BD78 /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A6B71E62B5E876200B9BD78 /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9A6B71A92B5E869E00B9BD78 /* Project object */;
 }
