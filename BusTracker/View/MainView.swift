@@ -15,7 +15,6 @@ struct MainView: View {
             Text("교통 Tracker").font(.busH1())
             
         }
-//            .background(Color.gray)
             .frame(maxWidth:.infinity, alignment: .leading)
             .padding(.leading, 15)
             
@@ -36,16 +35,8 @@ struct MainView: View {
                     Text("메뉴")
                 }
         }
-//        .toolbarBackground(.brown, for: .tabBar)
-//        .toolbarBackground(.visible, for: .tabBar)    This not work
         .onAppear {
-            UIFont.familyNames.sorted().forEach { familyName in
-                print("*** \(familyName) ***")
-                UIFont.fontNames(forFamilyName: familyName).forEach { fontName in
-                    print("\(fontName)")
-                }
-                print("---------------------")
-            }
+            
         }
         
     }
