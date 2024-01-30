@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		9A50DECC2B5FF1D80025711D /* BusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A50DECB2B5FF1D80025711D /* BusView.swift */; };
 		9A50DECE2B5FF1E30025711D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A50DECD2B5FF1E30025711D /* MenuView.swift */; };
+		9A50DED02B5FF5660025711D /* FontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A50DECF2B5FF5660025711D /* FontExtensions.swift */; };
+		9A50DEE72B5FFB430025711D /* NanumSquareEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A50DED72B5FFB430025711D /* NanumSquareEB.ttf */; };
+		9A50DEE82B5FFB430025711D /* NanumSquareL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A50DED82B5FFB430025711D /* NanumSquareL.ttf */; };
+		9A50DEEB2B5FFB430025711D /* NanumSquareEB.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A50DEDB2B5FFB430025711D /* NanumSquareEB.otf */; };
+		9A50DEEC2B5FFB430025711D /* NanumSquare_acR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A50DEDC2B5FFB430025711D /* NanumSquare_acR.ttf */; };
+		9A50DEEE2B5FFB430025711D /* NanumSquare_acB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A50DEDE2B5FFB430025711D /* NanumSquare_acB.ttf */; };
+		9A50DEF02B5FFB430025711D /* NanumSquare_acL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A50DEE02B5FFB430025711D /* NanumSquare_acL.ttf */; };
+		9A50DEF42B5FFB430025711D /* NanumSquare_acEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A50DEE42B5FFB430025711D /* NanumSquare_acEB.ttf */; };
+		9A50DEF52B5FFB430025711D /* NanumSquareB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A50DEE52B5FFB430025711D /* NanumSquareB.ttf */; };
+		9A50DEF62B5FFB430025711D /* NanumSquareR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A50DEE62B5FFB430025711D /* NanumSquareR.ttf */; };
+		9A50DEFB2B614B4E0025711D /* BusAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A50DEFA2B614B4E0025711D /* BusAPI.swift */; };
+		9A50DEFD2B6151A60025711D /* BusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A50DEFC2B6151A60025711D /* BusViewModel.swift */; };
+		9A50DEFF2B6153F50025711D /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A50DEFE2B6153F50025711D /* ViewExtensions.swift */; };
 		9A6B71B52B5E869E00B9BD78 /* BusTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B71B42B5E869E00B9BD78 /* BusTrackerApp.swift */; };
 		9A6B71B72B5E869E00B9BD78 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B71B62B5E869E00B9BD78 /* MainView.swift */; };
 		9A6B71B92B5E869F00B9BD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A6B71B82B5E869F00B9BD78 /* Assets.xcassets */; };
@@ -19,6 +32,7 @@
 		9A6B71E12B5E871200B9BD78 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9A6B71E02B5E871200B9BD78 /* Alamofire */; };
 		9A6B71E52B5E874C00B9BD78 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 9A6B71E42B5E874C00B9BD78 /* SkeletonView */; };
 		9A6B71E82B5E876200B9BD78 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 9A6B71E72B5E876200B9BD78 /* PopupView */; };
+		9AA6F0772B67C95F00BC5132 /* BusArriveInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA6F0762B67C95F00BC5132 /* BusArriveInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +55,19 @@
 /* Begin PBXFileReference section */
 		9A50DECB2B5FF1D80025711D /* BusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusView.swift; sourceTree = "<group>"; };
 		9A50DECD2B5FF1E30025711D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		9A50DECF2B5FF5660025711D /* FontExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtensions.swift; sourceTree = "<group>"; };
+		9A50DED72B5FFB430025711D /* NanumSquareEB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareEB.ttf; sourceTree = "<group>"; };
+		9A50DED82B5FFB430025711D /* NanumSquareL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareL.ttf; sourceTree = "<group>"; };
+		9A50DEDB2B5FFB430025711D /* NanumSquareEB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareEB.otf; sourceTree = "<group>"; };
+		9A50DEDC2B5FFB430025711D /* NanumSquare_acR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquare_acR.ttf; sourceTree = "<group>"; };
+		9A50DEDE2B5FFB430025711D /* NanumSquare_acB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquare_acB.ttf; sourceTree = "<group>"; };
+		9A50DEE02B5FFB430025711D /* NanumSquare_acL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquare_acL.ttf; sourceTree = "<group>"; };
+		9A50DEE42B5FFB430025711D /* NanumSquare_acEB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquare_acEB.ttf; sourceTree = "<group>"; };
+		9A50DEE52B5FFB430025711D /* NanumSquareB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareB.ttf; sourceTree = "<group>"; };
+		9A50DEE62B5FFB430025711D /* NanumSquareR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareR.ttf; sourceTree = "<group>"; };
+		9A50DEFA2B614B4E0025711D /* BusAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusAPI.swift; sourceTree = "<group>"; };
+		9A50DEFC2B6151A60025711D /* BusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusViewModel.swift; sourceTree = "<group>"; };
+		9A50DEFE2B6153F50025711D /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		9A6B71B12B5E869E00B9BD78 /* BusTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6B71B42B5E869E00B9BD78 /* BusTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTrackerApp.swift; sourceTree = "<group>"; };
 		9A6B71B62B5E869E00B9BD78 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -52,6 +79,7 @@
 		9A6B71CC2B5E86A000B9BD78 /* BusTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6B71D02B5E86A000B9BD78 /* BusTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTrackerUITests.swift; sourceTree = "<group>"; };
 		9A6B71D22B5E86A000B9BD78 /* BusTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9AA6F0762B67C95F00BC5132 /* BusArriveInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusArriveInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +116,7 @@
 				9A6B71B62B5E869E00B9BD78 /* MainView.swift */,
 				9A50DECB2B5FF1D80025711D /* BusView.swift */,
 				9A50DECD2B5FF1E30025711D /* MenuView.swift */,
+				9A50DEFE2B6153F50025711D /* ViewExtensions.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -95,6 +124,7 @@
 		9A50DEC82B5FEDC90025711D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9A50DEFC2B6151A60025711D /* BusViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -102,6 +132,7 @@
 		9A50DEC92B5FEDD40025711D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9AA6F0762B67C95F00BC5132 /* BusArriveInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,8 +140,50 @@
 		9A50DECA2B5FEDDD0025711D /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				9A50DEF92B614B3A0025711D /* Networks */,
+				9A50DECF2B5FF5660025711D /* FontExtensions.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		9A50DED12B5FF65A0025711D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9A50DED22B5FF6730025711D /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9A50DED22B5FF6730025711D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9A50DED62B5FFB430025711D /* nanum-square */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9A50DED62B5FFB430025711D /* nanum-square */ = {
+			isa = PBXGroup;
+			children = (
+				9A50DED72B5FFB430025711D /* NanumSquareEB.ttf */,
+				9A50DED82B5FFB430025711D /* NanumSquareL.ttf */,
+				9A50DEDB2B5FFB430025711D /* NanumSquareEB.otf */,
+				9A50DEDC2B5FFB430025711D /* NanumSquare_acR.ttf */,
+				9A50DEDE2B5FFB430025711D /* NanumSquare_acB.ttf */,
+				9A50DEE02B5FFB430025711D /* NanumSquare_acL.ttf */,
+				9A50DEE42B5FFB430025711D /* NanumSquare_acEB.ttf */,
+				9A50DEE52B5FFB430025711D /* NanumSquareB.ttf */,
+				9A50DEE62B5FFB430025711D /* NanumSquareR.ttf */,
+			);
+			path = "nanum-square";
+			sourceTree = "<group>";
+		};
+		9A50DEF92B614B3A0025711D /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				9A50DEFA2B614B4E0025711D /* BusAPI.swift */,
+			);
+			path = Networks;
 			sourceTree = "<group>";
 		};
 		9A6B71A82B5E869E00B9BD78 = {
@@ -136,13 +209,14 @@
 		9A6B71B32B5E869E00B9BD78 /* BusTracker */ = {
 			isa = PBXGroup;
 			children = (
-				9A50DECA2B5FEDDD0025711D /* Util */,
 				9A50DEC92B5FEDD40025711D /* Model */,
 				9A50DEC82B5FEDC90025711D /* ViewModel */,
 				9A50DEC72B5FEDC10025711D /* View */,
 				9A6B71B42B5E869E00B9BD78 /* BusTrackerApp.swift */,
 				9A6B71B82B5E869F00B9BD78 /* Assets.xcassets */,
 				9A6B71BA2B5E869F00B9BD78 /* BusTracker.entitlements */,
+				9A50DECA2B5FEDDD0025711D /* Util */,
+				9A50DED12B5FF65A0025711D /* Assets */,
 				9A6B71BB2B5E869F00B9BD78 /* Preview Content */,
 			);
 			path = BusTracker;
@@ -288,6 +362,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A50DEE82B5FFB430025711D /* NanumSquareL.ttf in Resources */,
+				9A50DEE72B5FFB430025711D /* NanumSquareEB.ttf in Resources */,
+				9A50DEF62B5FFB430025711D /* NanumSquareR.ttf in Resources */,
+				9A50DEEE2B5FFB430025711D /* NanumSquare_acB.ttf in Resources */,
+				9A50DEEB2B5FFB430025711D /* NanumSquareEB.otf in Resources */,
+				9A50DEF02B5FFB430025711D /* NanumSquare_acL.ttf in Resources */,
+				9A50DEF52B5FFB430025711D /* NanumSquareB.ttf in Resources */,
+				9A50DEF42B5FFB430025711D /* NanumSquare_acEB.ttf in Resources */,
+				9A50DEEC2B5FFB430025711D /* NanumSquare_acR.ttf in Resources */,
 				9A6B71BD2B5E869F00B9BD78 /* Preview Assets.xcassets in Resources */,
 				9A6B71B92B5E869F00B9BD78 /* Assets.xcassets in Resources */,
 			);
@@ -316,7 +399,12 @@
 			files = (
 				9A50DECC2B5FF1D80025711D /* BusView.swift in Sources */,
 				9A50DECE2B5FF1E30025711D /* MenuView.swift in Sources */,
+				9A50DEFF2B6153F50025711D /* ViewExtensions.swift in Sources */,
+				9A50DEFB2B614B4E0025711D /* BusAPI.swift in Sources */,
+				9A50DEFD2B6151A60025711D /* BusViewModel.swift in Sources */,
+				9A50DED02B5FF5660025711D /* FontExtensions.swift in Sources */,
 				9A6B71B72B5E869E00B9BD78 /* MainView.swift in Sources */,
+				9AA6F0772B67C95F00BC5132 /* BusArriveInfo.swift in Sources */,
 				9A6B71B52B5E869E00B9BD78 /* BusTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +498,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -464,6 +553,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -481,24 +571,29 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BusTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = NRW.BusTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -520,24 +615,29 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BusTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = NRW.BusTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
