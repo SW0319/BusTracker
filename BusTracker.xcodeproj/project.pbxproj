@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A3F658E2B6A7F390067141F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3F658D2B6A7F390067141F /* DetailView.swift */; };
+		9A4C63D12B692AEC009F8B71 /* BusStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C63D02B692AEC009F8B71 /* BusStation.swift */; };
 		9A50DECC2B5FF1D80025711D /* BusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A50DECB2B5FF1D80025711D /* BusView.swift */; };
 		9A50DECE2B5FF1E30025711D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A50DECD2B5FF1E30025711D /* MenuView.swift */; };
 		9A50DED02B5FF5660025711D /* FontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A50DECF2B5FF5660025711D /* FontExtensions.swift */; };
@@ -53,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A3F658D2B6A7F390067141F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9A4C63D02B692AEC009F8B71 /* BusStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStation.swift; sourceTree = "<group>"; };
 		9A50DECB2B5FF1D80025711D /* BusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusView.swift; sourceTree = "<group>"; };
 		9A50DECD2B5FF1E30025711D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		9A50DECF2B5FF5660025711D /* FontExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtensions.swift; sourceTree = "<group>"; };
@@ -115,6 +119,7 @@
 			children = (
 				9A6B71B62B5E869E00B9BD78 /* MainView.swift */,
 				9A50DECB2B5FF1D80025711D /* BusView.swift */,
+				9A3F658D2B6A7F390067141F /* DetailView.swift */,
 				9A50DECD2B5FF1E30025711D /* MenuView.swift */,
 				9A50DEFE2B6153F50025711D /* ViewExtensions.swift */,
 			);
@@ -133,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				9AA6F0762B67C95F00BC5132 /* BusArriveInfo.swift */,
+				9A4C63D02B692AEC009F8B71 /* BusStation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -402,7 +408,9 @@
 				9A50DEFF2B6153F50025711D /* ViewExtensions.swift in Sources */,
 				9A50DEFB2B614B4E0025711D /* BusAPI.swift in Sources */,
 				9A50DEFD2B6151A60025711D /* BusViewModel.swift in Sources */,
+				9A3F658E2B6A7F390067141F /* DetailView.swift in Sources */,
 				9A50DED02B5FF5660025711D /* FontExtensions.swift in Sources */,
+				9A4C63D12B692AEC009F8B71 /* BusStation.swift in Sources */,
 				9A6B71B72B5E869E00B9BD78 /* MainView.swift in Sources */,
 				9AA6F0772B67C95F00BC5132 /* BusArriveInfo.swift in Sources */,
 				9A6B71B52B5E869E00B9BD78 /* BusTrackerApp.swift in Sources */,

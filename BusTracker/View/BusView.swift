@@ -44,7 +44,7 @@ struct BusView: View {
                         }
                         .buttonStyle(.plain)
                         .navigationDestination(for: Color.self) { color in
-                            Text("asdasdsad").background(color)
+                            DetailView()
                         }
                         
 
